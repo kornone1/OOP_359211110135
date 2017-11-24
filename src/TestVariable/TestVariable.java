@@ -20,7 +20,7 @@ public class TestVariable {
 //        String
         String s = "Hello, World";
         System.out.println(s);
-        String name = "I'm nihsa";
+        String name = "I'm Anan";
         System.out.println(name);
         String msg = s + " " + name;
         System.out.println(msg);

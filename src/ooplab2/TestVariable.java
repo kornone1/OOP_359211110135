@@ -1,25 +1,26 @@
 package ooplab2;
 
 public class TestVariable {
+
     public static void main(String[] args) {
-//      Integer
+//        Integer
         int i;
         i = 10;
-        System.out.println("i ="+i);
+        System.out.println("i = "+i);
         int j = 20;
         System.out.println("j ="+j);
         System.out.println("i+j="+(i+j));
-//          Double
-        Double v = 15.15;
+//        Double
+        double v = 15.15;
         System.out.println(v);
-        System.out.println(v*100);
-//          Character
+        System.out.println(v*10);
+//        Character
         char c = 'T';
         System.out.println(c);
-//          String
-        String s = "Hello World";
+//        String
+        String s = "Hello, World";
         System.out.println(s);
-        String name = "I'm WIPARAT";
+        String name = "I'm Anan";
         System.out.println(name);
         String msg = s + " " + name;
         System.out.println(msg);
@@ -27,9 +28,10 @@ public class TestVariable {
         System.out.println(msg2);
         System.out.println(msg.length());
         System.out.println(msg.toUpperCase());
-        System.out.println(msg.toUpperCase());
-//        Boolean
-        Boolean b = true;
+        System.out.println(msg.toLowerCase());
+
+//        boolean
+        boolean b = true;
         boolean b1 = false;
         System.out.println(b);
         System.out.println(b1);
@@ -39,12 +41,8 @@ public class TestVariable {
 
 
 
+    }//main
 
 
 
-
-
-
-
-    }
-}//class
+}////////////

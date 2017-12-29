@@ -3,7 +3,7 @@ package ooplab6;
 public class StringCompare {
     public static void main(String[] args) {
         String str1 = "Hello";
-        String str2 = "Hello";
+        String str2 = "Hellooo";
         //compare String
         //type 1 (**)
         if (str1 == str2) System.out.println("true");
